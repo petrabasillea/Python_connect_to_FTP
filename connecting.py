@@ -8,3 +8,5 @@ ftp_server = ftplib.FTP(HOSTNAME, USERNAME, PASSWORD)
 ftp_server.encoding = "utf-8"
 
 ftp_server.dir()
+
+ftp_server.quit()
